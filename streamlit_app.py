@@ -19,8 +19,8 @@ FED_API_KEY = 'ad32a40782702b7ecc1ec9a4b2c85bf7'
 
 # Variables macroeconómicas
 variables = {
-    "Tasa de Interés, México (Banxico)": "SF43718",
-    "Inflación anual, México (Banxico)": "SP74662",
+    "Tasa de CETES 28 días, México (Banxico)": "SF43936",
+    "Inflación anual, México (Banxico)": "SP74661",
     "Tipo de Cambio FIX, México (Banxico)": "SF43718",
     "IGAE Desestacionalizado, México (Banxico)": "SR17693",
     "PIB US (FED)": "GDP",
