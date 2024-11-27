@@ -12,17 +12,20 @@ import requests
 import pandas as pd
 import matplotlib.pyplot as plt
 from datetime import datetime
+import requests
+import pandas as pd
+import matplotlib.pyplot as plt
 
 # Configuración de las claves API
-BANXICO_TOKEN = '4f55b130139d44190c5e841c2af22a5fe0ffdbc9496d89d813b84a20f6ca7353'
+# BANXICO_TOKEN = '4f55b130139d44190c5e841c2af22a5fe0ffdbc9496d89d813b84a20f6ca7353'
 FED_API_KEY = 'ad32a40782702b7ecc1ec9a4b2c85bf7'
 
 # Variables macroeconómicas
 variables = {
-    "Tasa de CETES 28 días, México (Banxico)": "SF43936",
-    "Inflación anual, México (Banxico)": "SP74661",
-    "Tipo de Cambio FIX, México (Banxico)": "SF43718",
-    "IGAE Desestacionalizado, México (Banxico)": "SR17693",
+  #  "Tasa de CETES 28 días, México (Banxico)": "SF43936",
+   # "Inflación anual, México (Banxico)": "SP74661",
+   # "Tipo de Cambio FIX, México (Banxico)": "SF43718",
+   # "IGAE Desestacionalizado, México (Banxico)": "SR17693",
     "PIB US (FED)": "GDP",
     "Tasa de Desempleo US (FED)": "UNRATE",
     "Índice de Producción Industrial US (FED)": "INDPRO",
